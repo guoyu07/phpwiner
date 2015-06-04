@@ -1,0 +1,66 @@
+winer.lo: /Users/winerQin/workspace/myself/winer/ext/winer.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/winer.c -o winer.lo 
+kernel/main.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/main.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/main.c -o kernel/main.lo 
+kernel/memory.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/memory.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/memory.c -o kernel/memory.lo 
+kernel/exception.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/exception.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/exception.c -o kernel/exception.lo 
+kernel/hash.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/hash.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/hash.c -o kernel/hash.lo 
+kernel/debug.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/debug.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/debug.c -o kernel/debug.lo 
+kernel/backtrace.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/backtrace.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/backtrace.c -o kernel/backtrace.lo 
+kernel/object.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/object.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/object.c -o kernel/object.lo 
+kernel/array.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/array.c -o kernel/array.lo 
+kernel/extended/array.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/extended/array.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/extended/array.c -o kernel/extended/array.lo 
+kernel/string.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/string.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/string.c -o kernel/string.lo 
+kernel/fcall.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/fcall.c -o kernel/fcall.lo 
+kernel/extended/fcall.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/extended/fcall.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/extended/fcall.c -o kernel/extended/fcall.lo 
+kernel/require.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/require.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/require.c -o kernel/require.lo 
+kernel/file.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/file.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/file.c -o kernel/file.lo 
+kernel/operators.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/operators.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/operators.c -o kernel/operators.lo 
+kernel/concat.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/concat.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/concat.c -o kernel/concat.lo 
+kernel/variables.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/variables.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/variables.c -o kernel/variables.lo 
+kernel/filter.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/filter.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/filter.c -o kernel/filter.lo 
+kernel/iterator.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/iterator.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/iterator.c -o kernel/iterator.lo 
+kernel/time.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/time.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/time.c -o kernel/time.lo 
+kernel/exit.lo: /Users/winerQin/workspace/myself/winer/ext/kernel/exit.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/kernel/exit.c -o kernel/exit.lo 
+winer/image/driver/gd.lo: /Users/winerQin/workspace/myself/winer/ext/winer/image/driver/gd.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/winer/image/driver/gd.zep.c -o winer/image/driver/gd.lo 
+winer/image/driver/imagick.lo: /Users/winerQin/workspace/myself/winer/ext/winer/image/driver/imagick.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/winer/image/driver/imagick.zep.c -o winer/image/driver/imagick.lo 
+winer/upload/driver/local.lo: /Users/winerQin/workspace/myself/winer/ext/winer/upload/driver/local.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/winer/upload/driver/local.zep.c -o winer/upload/driver/local.lo 
+winer/image.lo: /Users/winerQin/workspace/myself/winer/ext/winer/image.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/winer/image.zep.c -o winer/image.lo 
+winer/tool.lo: /Users/winerQin/workspace/myself/winer/ext/winer/tool.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/winer/tool.zep.c -o winer/tool.lo 
+winer/upload.lo: /Users/winerQin/workspace/myself/winer/ext/winer/upload.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/winer/upload.zep.c -o winer/upload.lo 
+winer/validator.lo: /Users/winerQin/workspace/myself/winer/ext/winer/validator.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/winer/validator.zep.c -o winer/validator.lo 
+winer/verify.lo: /Users/winerQin/workspace/myself/winer/ext/winer/verify.zep.c
+	$(LIBTOOL) --mode=compile $(CC)  -I. -I/Users/winerQin/workspace/myself/winer/ext $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS)  -c /Users/winerQin/workspace/myself/winer/ext/winer/verify.zep.c -o winer/verify.lo 
+$(phplibdir)/winer.la: ./winer.la
+	$(LIBTOOL) --mode=install cp ./winer.la $(phplibdir)
+
+./winer.la: $(shared_objects_winer) $(WINER_SHARED_DEPENDENCIES)
+	$(LIBTOOL) --mode=link $(CC) $(COMMON_FLAGS) $(CFLAGS_CLEAN) $(EXTRA_CFLAGS) $(LDFLAGS) -o $@ -export-dynamic -avoid-version -prefer-pic -module -rpath $(phplibdir) $(EXTRA_LDFLAGS) $(shared_objects_winer) $(WINER_SHARED_LIBADD)
+

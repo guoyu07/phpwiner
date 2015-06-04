@@ -1,0 +1,12 @@
+ARG_ENABLE("winer", "enable winer", "no");
+
+if (PHP_WINER != "no") {
+  EXTENSION("winer", "winer.c", null, "-I"+configure_module_dirname);
+  ADD_SOURCES(configure_module_dirname + "/kernel", "main.c memory.c exception.c hash.c debug.c backtrace.c object.c array.c string.c fcall.c require.c file.c operators.c concat.c variables.c filter.c iterator.c exit.c time.c", "winer");
+  ADD_SOURCES(configure_module_dirname + "/kernel/extended", "array.c fcall.c", "winer");
+  
+  ADD_SOURCES(configure_module_dirname + "/winer/image/driver", "gd.zep.c imagick.zep.c", "winer");
+	ADD_SOURCES(configure_module_dirname + "/winer/upload/driver", "local.zep.c", "winer");
+	ADD_SOURCES(configure_module_dirname + "/winer", "image.zep.c tool.zep.c upload.zep.c validator.zep.c verify.zep.c", "winer");
+  ADD_FLAG("CFLAGS_WINER", "/D ZEPHIR_RELEASE");
+}
